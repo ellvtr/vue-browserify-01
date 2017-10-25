@@ -1,11 +1,11 @@
 .DS_Store
-node_modules
-www/dist/build.js
-www/dist/build.css
-yarn-error.log
-npm-debug.log
-karma.conf.js
-eslintrc-original
+template/node_modules
+template/www/dist/build.js
+template/www/dist/build.css
+template/yarn-error.log
+template/npm-debug.log
+template/karma.conf.js
+template/eslintrc-original
 
 # Editor directories and files
 .vscode
