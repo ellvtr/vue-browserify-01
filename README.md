@@ -1,6 +1,5 @@
-# test01
-
-> Impact test
+# My Vue Browserify template 
+My Vue template based on Vue's Browserify template, see https://github.com/vuejs-templates/browserify
 
 ## Build Setup
 
