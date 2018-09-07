@@ -1,23 +1,30 @@
 <script>
 module.exports = {
-  name: "my-comp"
-  ,data(){
+  name: "my-comp",
+  
+  data(){
     return {
-      msg: "Some Message"
+      foo: "foo"
     };
-  }
-};
+  }, // data
+
+  methods: {
+  }, // methods
+
+  mounted(){
+  } // mounted
+
+}; // module
 
 </script>
 
 <template><span>
-  <h1>{{msg}}</h1>
+  <h1></h1>
   <p>myComp</p>
 </span></template>
 
 <style scoped>
 span {
-  font-family: Ubuntu, Helvetica, Verdana, sans-serif;
-  text-align: center;
+  color: red;
 }
 </style>
